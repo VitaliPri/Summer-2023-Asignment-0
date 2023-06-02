@@ -1,6 +1,8 @@
 function greetFriend(name) {
-  // Insert code here;
+  console.log(`Hello, ${name}!`);
 }
+
+greetFriend("Vitaliy");
 
 // Do not edit this line;
 module.exports = greetFriend;
