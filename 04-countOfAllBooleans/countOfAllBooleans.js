@@ -1,10 +1,10 @@
 function countOfAllBooleans(arr) {
-  counter = 0;
-  arr.forEach((item) => {
-    if (toString.call(item) == "[object Boolean]") counter++;
-  });
-
-  return counter;
+  let calc = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (typeof arr[i] !== "boolean") continue;
+    calc.push(arr[i]);
+  }
+  return calc.length;
 }
 
 // Do not edit this line;
