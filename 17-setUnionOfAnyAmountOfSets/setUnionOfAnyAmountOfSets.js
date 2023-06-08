@@ -1,5 +1,6 @@
 function setUnionOfAnyAmountOfSets(...args) {
-  // Insert code here;
+  let setUnion = new Set(args);
+  return setUnion;
 }
 
 // Do not edit this line;
